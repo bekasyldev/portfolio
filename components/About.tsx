@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -14,9 +13,9 @@ export default function About() {
     >
       <h2 className="text-3xl font-medium mb-8">About Me</h2>
       <p className="mb-3 text-lg">
-        I'm Bekasyl, a passionate software developer. My coding journey began
-        during
-        <span className="font-medium"> carantine</span>, I decided to pursue my
+        I&apos;m Bekasyl, a passionate software developer. My coding journey
+        began during
+        <span className="font-medium">quarantine</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
@@ -33,12 +32,12 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not immersed in code,</span>, you'll
-        find me on the volleyball court, indulging in my love for anime or
-        staying active with workouts.. I also enjoy{" "}
+        <span className="italic">When I&apos;m not immersed in code</span>,
+        you&apos;ll find me on the volleyball court, indulging in my love for
+        anime or staying active with workouts. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
-        learning about <span className="font-medium">web design</span>. I'm also
-        try improve my English.
+        learning about <span className="font-medium">web design</span>. I&apos;m
+        also trying to improve my English.
       </p>
     </motion.section>
   );

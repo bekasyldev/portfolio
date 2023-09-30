@@ -14,7 +14,7 @@ const Contact = () => {
     <section id="contact" className="mb-5">
       <div className="flex items-center justify-center flex-col gap-16">
         <h3 className="text-5xl font-bold text-center tracking-wide">
-          Let's built something <br /> great together
+          Let&apos;s built something <br /> great together
         </h3>
         <Button
           onClick={sendEmail}
