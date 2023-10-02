@@ -94,10 +94,7 @@ export const skillsData = [
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "SQL",
   "Framer Motion",
 ] as const;

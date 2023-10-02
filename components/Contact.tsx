@@ -1,29 +1,13 @@
-"use client";
-import { Mail } from "lucide-react";
-import { Button } from "./ui/button";
+import SendEmail from "./SendEmail";
 
 const Contact = () => {
-  const sendEmail = () => {
-    const emailAddress = "utepovbekasyl@example.com";
-
-    const mailtoLink = `mailto:${emailAddress}?`;
-    window.location.href = mailtoLink;
-  };
-
   return (
-    <section id="contact" className="mb-5">
-      <div className="flex items-center justify-center flex-col gap-16">
+    <section id="contact" className="mb-5 my-40 md:my-10 relative">
+      <div className="flex items-center justify-center flex-col gap-10">
         <h3 className="text-5xl font-bold text-center tracking-wide">
           Let&apos;s built something <br /> great together
         </h3>
-        <Button
-          onClick={sendEmail}
-          size={"lg"}
-          className="bg-[#106ae8] w-[200px] text-md rounded-xl hover:bg-blue-400 gap-x-3"
-        >
-          <Mail />
-          Get in touch
-        </Button>
+        <SendEmail />
       </div>
     </section>
   );
