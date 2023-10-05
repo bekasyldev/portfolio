@@ -24,7 +24,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <Button className="hidden sm:block text-black rounded-xl bg-white">
+        <Button className="hidden sm:block text-black rounded-xl bg-white hover:">
           <Link href={"#contact"}>Get in touch</Link>
         </Button>
       </nav>

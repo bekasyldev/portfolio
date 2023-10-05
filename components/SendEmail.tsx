@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 const SendEmail = () => {
   const sendEmail = () => {
-    const emailAddress = "utepovbekasyl@example.com";
+    const emailAddress = "utepovbekasyl@gmail.com";
 
     const mailtoLink = `mailto:${emailAddress}?`;
     window.location.href = mailtoLink;
