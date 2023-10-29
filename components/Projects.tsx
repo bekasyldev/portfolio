@@ -18,9 +18,9 @@ export default function Project() {
 
   return (
     <div className="group mb-3 sm:mb-8 last:mb-0 flex gap-6 flex-col justify-center items-center">
-      {projectsData.map((project) => (
+      {projectsData.map((project, index) => (
         <section
-          key={project.title}
+          key={index}
           className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] text-black"
         >
           <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
