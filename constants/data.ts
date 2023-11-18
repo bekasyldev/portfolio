@@ -40,7 +40,7 @@ export const projectsData = [
   },
   {
     title: "Game-Hub",
-    description: "Focused on showcasing React expertise, Implemented key React concepts and hooks for sorting by genre, platform, and date.",
+    description: "Focused on showcasing Fronted skills.Implemented key React concepts and hooks.",
     tags: ["React", "Typescript", "Chakra-UI"],
     imageUrl: "game-hub",
     link: "https://game-hub-phi-ashen.vercel.app/"
