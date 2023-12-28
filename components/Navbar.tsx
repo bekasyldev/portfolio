@@ -2,11 +2,12 @@ import Image from "next/image";
 import { links } from "@/constants/data";
 import Link from "next/link";
 import { Button } from "./ui/button";
+import ActionButton from "./ActionButton";
 
 const Navbar = () => {
   return (
     <header className="relative">
-      <nav className="w-full p-4 flex items-center justify-center flex-row sm:gap-80 lg:gap-40">
+      <nav className="w-full p-4 flex items-center justify-between px-8 flex-row sm:gap-80 lg:gap-40">
         <div className="flex flex-row items-center sm:flex">
           <Image
             className="mb-4 md:mb-3"
@@ -24,9 +25,10 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <Button className="hidden sm:block text-black rounded-xl bg-white hover:">
+        <Button className="hidden lg:block text-black rounded-xl bg-white ">
           <Link href={"#contact"}>Get in touch</Link>
         </Button>
+        <ActionButton />
       </nav>
     </header>
   );
