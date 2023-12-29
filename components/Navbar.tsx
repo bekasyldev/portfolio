@@ -7,7 +7,7 @@ import ActionButton from "./ActionButton";
 const Navbar = () => {
   return (
     <header className="relative">
-      <nav className="w-full p-4 flex items-center justify-between px-8 flex-row sm:gap-80 lg:gap-40">
+      <nav className="w-full py-4 flex items-center justify-between flex-row px-10 sm:px-20 md:px-40">
         <div className="flex flex-row items-center sm:flex">
           <Image
             className="mb-4 md:mb-3"
